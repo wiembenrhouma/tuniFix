@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="nchlh.jnlp">
+  <information>
+    <title>nchlh</title>
+    <vendor>ASUS</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\com.mysql.jdbc_5.1.5.jar" size="676712" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.15-bin (1).jar" size="785998" download="eager" />
+    <jar href="nchlh.jar" size="10531" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="nchlh.Nchlh"  name="nchlh" />
+  <update check="always"/>
+</jnlp>
